@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore installer scripts
+*.sh
+
+# Ignore Python/Conda environments
+.env
+.venv/
+env/
+venv/
+*.conda
+*.tar.bz2
+
+# Ignore Docker images
+*.tar
+docker/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore cache
+__pycache__/
+*.log
+*.tmp
+
+# Ignore Conda and virtual environments
+env/
+.venv/
+venv/
